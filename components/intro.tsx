@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-// need to import image and referencing it (next/image feature?)
 import profilePic from '/public/portfolio_profile_pic.jpg';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
@@ -92,7 +91,7 @@ export default function Intro() {
 
         <a
           className='group bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-300 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
-          href='/CV.pdf'
+          href='/Resume_Nov_2023_Ryan_YU_Ho_Kan.pdf'
           download
         >
           Download CV{' '}

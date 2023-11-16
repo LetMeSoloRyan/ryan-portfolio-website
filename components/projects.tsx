@@ -13,9 +13,12 @@ export default function Projects() {
     <section
       ref={ref}
       id='projects'
-      className='scroll-mt-28 mb-28'
+      className='scroll-mt-28 mb-28 text-center'
     >
       <SectionHeading>My projects</SectionHeading>
+      <p className='text-gray-700 dark:text-white/80 mb-[1.5rem] -mt-[1.5rem]'>
+        Source code also on my GitHub
+      </p>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

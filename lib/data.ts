@@ -1,10 +1,8 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import portfolioSiteImg from '@/public/portfolioSiteImg.jpeg';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import comingSoon from '@/public/comingSoon.png';
 
 export const links = [
   {
@@ -35,52 +33,98 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Continuing self-learn',
+    location: 'EDX, Coursera, Udemy, Youtube, etc.',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'Courses cover programming languages, frameworks, data structure, algorithm, etc.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: 'On-going',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Graduated Frontend Web Developer Program',
+    location: 'CLAP@HKJC x Generation Hong Kong',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'Skills acquired: Git, GitHub, HTML, CSS, Bootstrap, JavaScript, ReactJS',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Aug 2023 - Oct 2023',
+  },
+  {
+    title: 'Recruitment Consultant',
+    location: 'Manpower Services (Hong Kong) Limited',
+    description:
+      'End-to-end recruitment service focus in IT-related permenant roles',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: 'Feb 2022 - Aug 2023',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Business Development Executive',
+    location: 'Datawords Hong Kong Limited',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'Account Management in digital solutions in French-based agency',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Sept 2021 - Feb 2022',
+  },
+  {
+    title: 'Business Development Executive',
+    location: 'QvQ Studio Limited',
+    description:
+      'Business Development for a start-up gaming & IT solutions studio',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Jun 2020 - Sept 2021',
+  },
+  {
+    title: 'Account Manager',
+    location: 'Hilti (Hong Kong) Limited',
+    description:
+      'Account Management and Sales Development of building services products and solutions',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Sept 2018 - Mar 2020',
+  },
+  {
+    title: 'Bachelor of Social Science',
+    location: 'City University of Hong Kong',
+    description:
+      'Majored in Public Policy & Politics with Public Management stream',
+    icon: React.createElement(LuGraduationCap),
+    date: 'Jul 2018',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'This Portofolio Site',
+    title: 'This Portofolio Website',
     description:
-      'This is my personal portfolio site. I wish you enjoy browsering it. You can find my profile and all my work demo in here.', 
+      'This is my personal portfolio site. I wish you enjoy browsering it. You can find my profile and all my work demo in here.',
     tags: ['React.js', 'Next.js', 'TypeScript', 'Tailwind', 'Framer Motion'],
     imageUrl: portfolioSiteImg,
   },
   {
-    title: 'rmtDev',
+    title: 'REST API for User Information (Incompleted)',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'A RESTFUL API for intereacting some user information with MongoDB (still thinking where and how to use it)',
+    tags: ['Node.js', 'Express.js', 'TypeScript', 'MongoDB', 'Authentication'],
+    imageUrl: comingSoon,
   },
   {
-    title: 'Word Analytics',
+    title: 'Car Renting Web Ecommerce Application (Incompleted)',
+    description: 'An Ecommerce site for car renting with MongoDB for car data',
+    tags: ['React.js', 'Next.js', 'TypeScript', 'MongoDB', 'Tailwind'],
+    imageUrl: comingSoon,
+  },
+  {
+    title: 'Full-stack Threads Clone (Incompleted',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'Cloning of the Threads@Facebook application, it will be a full stack app',
+    tags: [
+      'React.js',
+      'Next.js',
+      'TypeScript',
+      'Node.js',
+      'MongoDB',
+      'Tailwind',
+      'Zod',
+    ],
+    imageUrl: comingSoon,
   },
 ] as const;
 
@@ -89,19 +133,11 @@ export const skillsData = [
   'CSS',
   'JavaScript',
   'TypeScript',
-  'React',
+  'React.js',
   'Next.js',
-  'Node.js',
+  'Go',
   'Git',
-  'Tailwind',
-  'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
+  'Tailwind CSS',
+  'Material UI',
   'Framer Motion',
 ] as const;
