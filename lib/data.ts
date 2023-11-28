@@ -3,6 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import portfolioSiteImg from '@/public/portfolioSiteImg.jpeg';
 import comingSoon from '@/public/comingSoon.png';
+import restAPI from '@/public/restAPI.png';
 
 export const links = [
   {
@@ -99,11 +100,11 @@ export const projectsData = [
     imageUrl: portfolioSiteImg,
   },
   {
-    title: 'REST API for User Information (Incompleted)',
+    title: 'REST API for User Information',
     description:
-      'A RESTFUL API for intereacting some user information with MongoDB (still thinking where and how to use it)',
+      'A RESTFUL API for user information with MongoDB, source code can be found on my GitHub',
     tags: ['Node.js', 'Express.js', 'TypeScript', 'MongoDB', 'Authentication'],
-    imageUrl: comingSoon,
+    imageUrl: restAPI,
   },
   {
     title: 'Car Renting Web Ecommerce Application (Incompleted)',
@@ -135,7 +136,10 @@ export const skillsData = [
   'TypeScript',
   'React.js',
   'Next.js',
+  'Node.js',
+  'Express.js',
   'Go',
+  'MongoDB',
   'Git',
   'Tailwind CSS',
   'Material UI',
