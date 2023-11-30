@@ -22,7 +22,7 @@ export default function About() {
         I am a degree holder in Social Science from City University of Hong
         Kong, and have more than 4 years of full-time experience in{' '}
         <span className='font-bold'>
-          Account Management & Business Developement
+          Account Management & Business Development
         </span>
         . However, I decided to pursue my passion for programming and career of{' '}
         <span className='font-bold'>Software Engineer</span>. In 2023, I started

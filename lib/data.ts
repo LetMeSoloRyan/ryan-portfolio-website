@@ -95,7 +95,7 @@ export const projectsData = [
   {
     title: 'This Portofolio Website',
     description:
-      'This is my personal portfolio site. I wish you enjoy browsering it. You can find my profile and all my work demo in here.',
+      'This is my personal portfolio site. I wish you enjoy browsing it. You can find my profile and all my work demo in here.',
     tags: ['React.js', 'Next.js', 'TypeScript', 'Tailwind', 'Framer Motion'],
     imageUrl: portfolioSiteImg,
   },
