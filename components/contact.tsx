@@ -27,9 +27,9 @@ export default function Contact() {
         Please contact me directly at{' '}
         <a
           className='underline'
-          href='mailto:hokanyu@my.cityu.edu.hk'
+          href='mailto:hokanyu-c@my.cityu.edu.hk'
         >
-          hokanyu@my.cityu.edu.hk
+          hokanyu-c@my.cityu.edu.hk
         </a>{' '}
         or through this form.
       </p>

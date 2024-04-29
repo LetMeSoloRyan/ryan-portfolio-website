@@ -42,7 +42,7 @@ export default function About() {
       </p>
       <p>
         By now my core stacks are{' '}
-        <span className='font-bold'>JavaScript, React.js (Next.js), Go</span>. I
+        <span className='font-bold'>React Native, React.js (Next.js), Go</span>. I
         am also getting familiar by self-learning and making demo with{' '}
         <span className='font-bold'>
           TypeScript, Redux, Node.js (Express.js), SQL (PostgreSQL), NoSQL

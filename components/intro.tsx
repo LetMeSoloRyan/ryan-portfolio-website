@@ -53,7 +53,7 @@ export default function Intro() {
         Hello, I am Ryan, a
         <span className='font-bold'>
           {' '}
-          Web Developer (trying to be a Full-Stack Developer){' '}
+          Web Developer (Working hard to be a Full-Stack Developer){' '}
         </span>
         transiting from Account Management & Business Development role. I really
         enjoy{' '}
@@ -63,7 +63,7 @@ export default function Intro() {
         . Currently, my main areas of learn and focus are
         <span className='italic font-bold'>
           {' '}
-          JavaScript, TypeScript, React.js (Next.js, Redux), Node.js
+          React Native, TypeScript, React.js (Next.js), Node.js
           (Express.js), Go, SQL (PostgreSQL), NoSQL (MongoDB), REST API, AWS
         </span>
         .
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className='group bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-300 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
-          href='/Resume_Nov_2023_Ryan_YU_Ho_Kan.pdf'
+          href='/Resume_Apr_2024_Ryan_YU_Ho_Kan.pdf'
           download
         >
           Download CV{' '}
