@@ -107,7 +107,7 @@ export const projectsData = [
   {
     title: 'Basketball League App (Real World Project)',
     description:
-      'A RESTFUL API for user information with MongoDB, source code can be found on my GitHub',
+      'An all-in-one app for a basketball league with member system, registration, statistics, etc., using Wordpress CMS for content management',
     tags: ['React Native', 'Redux', 'Restful API', 'Wordpress CMS'],
     imageUrl: basketballLeague,
   },
@@ -121,15 +121,15 @@ export const projectsData = [
   {
     title: 'Printer App (Real World Project)',
     description:
-      'A RESTFUL API for user information with MongoDB, source code can be found on my GitHub',
-    tags: ['Frontend', 'React Native', 'Redux', 'Restful API', 'Wordpress CMS'],
+      'Mobile application for an printer company to monitor printer status and different statistics',
+    tags: ['React Native', 'Restful API'],
     imageUrl: printerApp,
   },
   {
     title: 'Printer Dashboard Website (Real World Project)',
     description:
-      'Website for an printer company for monitoring printer status and different statistics',
-    tags: ['ReactJs', 'Tailwind CSS', 'echarts', 'Vite'],
+      'Website for an printer company to monitor printer status and different statistics',
+    tags: ['ReactJs', 'Tailwind CSS', 'echarts', 'Restful API'],
     imageUrl: printerDashboard,
   },
   {
