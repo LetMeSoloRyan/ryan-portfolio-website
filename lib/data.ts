@@ -75,15 +75,7 @@ export const experiencesData = [
     description:
       'Account Management in digital solutions in French-based agency',
     icon: React.createElement(CgWorkAlt),
-    date: 'Sept 2021 - Feb 2022',
-  },
-  {
-    title: 'Business Development Executive',
-    location: 'QvQ Studio Limited',
-    description:
-      'Business Development for a start-up gaming & IT solutions studio',
-    icon: React.createElement(CgWorkAlt),
-    date: 'Jun 2020 - Sept 2021',
+    date: 'Jun 2020 - Feb 2022',
   },
   {
     title: 'Account Manager',
