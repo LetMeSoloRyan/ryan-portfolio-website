@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className='group bg-gray-200 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-300 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
-          href='/Resume_Apr_2024_Ryan_YU_Ho_Kan.pdf'
+          href='/Resume_Jun_2024_Ryan_YU_Ho_Kan.pdf'
           download
         >
           Download CV{' '}
